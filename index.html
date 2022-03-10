@@ -1,0 +1,45 @@
+<html>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Poppins:700" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
+<div class="converter-wrapper">
+
+    <img src="mygif.gif"></img>
+    <h2>CRYPTO CONVERTER</h2>
+ 
+  <hr>
+
+  <h3>Enter Amount:</h3>
+ 
+    <input type="number" id='cryptoCurrency' />
+  
+
+  <h3>From:</h3>
+    <span>
+        <select id="select1" >
+            <img src=""></img>
+            <option value="">-- SELECT --</option>
+        </select>
+    </span>
+  
+  <h3>To:</h3>
+    <span>
+        <select id="select2" >
+            <option value="">-- SELECT --</option>
+        </select>
+    </span>
+    <br><br>
+    <button class="converter-button" id='button' onclick="fetchCurrentPrice()"><b>Convert</b></button>
+    <br><br>
+    <h3>
+        Result:<h4 id="result">---</h4>
+    </h3>
+    <br><br>
+    
+  
+  </div> <!-- /converter-side-b -->
+</div><!-- /converter-wrapper -->
+
+<script src="script.js"></script>
+
+</html>
