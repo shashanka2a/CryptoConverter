@@ -1,3 +1,18 @@
+  body {
+    padding-top: 20px;
+    background-color: #202020;
+  }
+
+  hr{
+    color: #E5E5E5;
+  }
+  
+  h2,h3,h4 {
+    color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+  }
 
   .converter-wrapper {
     margin: 0 auto;
