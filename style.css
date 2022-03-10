@@ -88,8 +88,6 @@
   .converter-button {
     float: center;
     margin-top: 20px;
-    padding-top:20px;
-    padding-bottom:20px;
     box-sizing: border-box;
     font-size: 1em;
     width: 125px;
@@ -98,7 +96,11 @@
     border-radius: 10px;
     border-color: papayawhip;
   }
-  
+
+  .converter-wrapper section {
+    padding-top:20px;
+    padding-bottom:20px;
+   }
 
   .converter-side-a {
     padding-right: 10px;
