@@ -13,7 +13,12 @@
     letter-spacing: 0.4px;
     font-weight: 700;
   }
-  
+
+  option{
+    font-weight: 500;
+    text-align: center;
+  }
+
   .converter-wrapper {
     margin: 0 auto;
     width: 100%;
@@ -54,7 +59,7 @@
     
     text-indent: 0.01px;
     text-overflow: '';
-    -webkit-appearance: none; /* hide default arrow in chrome OSX */
+    -webkit-appearance: none; 
   }
   
   .converter-wrapper span::before,
@@ -64,7 +69,7 @@
     pointer-events: none;
   }
   
-  .converter-wrapper span::after { /*  Custom dropdown arrow */
+  .converter-wrapper span::after { 
     content: "\25BC";
     height: 1em;
     font-size: .625em;
@@ -75,7 +80,7 @@
     color: #131B24;
   }
   
-  .converter-wrapper span::before { /*  Custom dropdown arrow cover */
+  .converter-wrapper span::before { 
     width: 2.5em;
     right: 0;
     top: 0;
@@ -88,6 +93,8 @@
   .converter-button {
     float: center;
     margin-top: 20px;
+    padding-top:20px;
+    padding-bottom:20px;
     box-sizing: border-box;
     font-size: 1em;
     width: 125px;
@@ -115,7 +122,3 @@
     padding-left: 10px;
   }
 
-  option{
-    font-weight: 500;
-    text-align: center;
-  }
